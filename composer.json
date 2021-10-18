@@ -1,0 +1,22 @@
+{
+  "name": "keven/openapi",
+  "description": "OpenAPI 3 reading, writing, and manipulating toolbox",
+  "type": "library",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Keven Godet",
+      "email": "hello@keven.fr"
+    }
+  ],
+  "autoload": {
+    "psr-4": {
+      "Keven\\OpenAPI\\": "src"
+    }
+  },
+  "require": {
+    "keven/media-type": "^1.0",
+    "opis/json-schema": "^2.2",
+    "symfony/yaml": "^5.3"
+  }
+}
